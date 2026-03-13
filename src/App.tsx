@@ -70,7 +70,7 @@ export default function App() {
       </div>
 
       {/* 2️⃣ 태그 필터 영역 (접기/펴기 기능 추가) */}
-      <div style={{ marginBottom: '20px', padding: '15px', backgroundColor: '#f9f9f9', borderRadius: '8px', border: '1px solid #eee' }}>
+      <div style={{ marginBottom: '20px', padding: '5px 15px 5px 15px', backgroundColor: '#f9f9f9', borderRadius: '8px', border: '1px solid #eee' }}>
 
         {/* 필터 제목 (클릭 시 접고 펴기) */}
         <div
@@ -96,12 +96,12 @@ export default function App() {
         {isFilterOpen && (
           <div style={{ marginTop: '20px' }}>
             {TAG_GROUPS.map((group, index) => (
-              <div key={index} style={{ marginBottom: '15px' }}>
+              <div key={index} style={{ marginBottom: '5px' }}>
                 <div style={{ fontSize: '14px', fontWeight: 'bold', color: '#666', marginBottom: '8px' }}>
                   ▪ {group.title}
                 </div>
 
-                <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
+                <div style={{ display: 'flex', gap: '5px', flexWrap: 'wrap' }}>
                   {group.tags.map((tag) => (
                     <button
                       key={tag}
