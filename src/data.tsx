@@ -16,8 +16,7 @@ export interface Character {
 export const TAG_GROUPS = [
   {title: '모드', tags: ['사냥', '협동','보스사냥','현상금사냥꾼',"하드코어 협동",'일일이벤트(생존)','일일이벤트(방어)', '클랜보스'],},
   {title: '획득조건', tags: ['게임플레이', '이벤트'],},
-  {title: '각성', tags: ['1차 각성 체감↑','2차 각성 체감↑'],},
-  {title: '능력', tags: ['멀티샷','멀티샷(2각)','서폿','반사'],},
+  {title: '능력', tags: ['멀티샷','멀티샷(2각)','서폿','반사','1차 각성 체감↑','2차 각성 체감↑'],},
 ];
 
 // 2. 캐릭터 데이터 내보내기 (export)
@@ -45,7 +44,7 @@ export const characterDB: Character[] = [
   {id: 21, name_kor:"붐붐", name: 'boom boom', tier: "B", image: `${import.meta.env.BASE_URL}img/hunter/21_boom_boom.png`, tags: ["2차 각성 체감↑"],},
   {id: 22, name_kor:"울프", name: 'grey wolf', tier: "C", image: `${import.meta.env.BASE_URL}img/hunter/22_grey_wolf.png`, tags: ["게임플레이"],},
   {id: 23, name_kor:"롤러", name: 'roller', tier: "D", image: `${import.meta.env.BASE_URL}img/hunter/23_roller.png`, tags: ["게임플레이"],},
-  {id: 24, name_kor:"킹", name: 'king', tier: "C", image: `${import.meta.env.BASE_URL}img/hunter/24_king.png`, tags: ["반사"],},
+  {id: 24, name_kor:"킹", name: 'king', tier: "C", image: `${import.meta.env.BASE_URL}img/hunter/24_king.png`, tags: ["반사","게임플레이"],},
   {id: 25, name_kor:"닌자", name: 'ninja', tier: "S", image: `${import.meta.env.BASE_URL}img/hunter/25_ninja.png`, tags: ["멀티샷(2각)", "1차 각성 체감↑", "2차 각성 체감↑"],},
   {id: 26, name_kor:"엔지", name: 'engineer', tier: "C", image: `${import.meta.env.BASE_URL}img/hunter/26_engineer.png`, tags: ["반사"],},
   {id: 27, name_kor:"해머", name: 'hammerdin', tier: "C", image: `${import.meta.env.BASE_URL}img/hunter/27_hammerdin.png`, tags: [],},
@@ -78,7 +77,7 @@ export const characterDB: Character[] = [
   {id: 54, name_kor:"허수아비", name: 'scarecrow', tier: "D", image: `${import.meta.env.BASE_URL}img/hunter/54_scarecrow.png`, tags: [],},
   {id: 55, name_kor:"비틀", name: 'beetle', tier: "A", image: `${import.meta.env.BASE_URL}img/hunter/55_beetle.png`, tags: [],},
   {id: 56, name_kor:"아누", name: 'anubis', tier: "S", image: `${import.meta.env.BASE_URL}img/hunter/56_anubis.png`, tags: ["1차 각성 체감↑"],},
-  {id: 57, name_kor:"토멘", name: 'torment', tier: "S", image: `${import.meta.env.BASE_URL}img/hunter/57_torment.png`, tags: ["서폿", "게임플레이"],},
+  {id: 57, name_kor:"토멘", name: 'torment', tier: "S", image: `${import.meta.env.BASE_URL}img/hunter/57_torment.png`, tags: ["서폿", "게임플레이","1차 각성 체감↑"],},
   {id: 58, name_kor:"거북", name: 'mutant turtle', tier: "SS", image: `${import.meta.env.BASE_URL}img/hunter/58_mutant_turtle.png`, tags: ["반사","성소"],},
   {id: 59, name_kor:"미라", name: 'mummy', tier: "A", image: `${import.meta.env.BASE_URL}img/hunter/59_mummy.png`, tags: ["성소"],},
   {id: 60, name_kor:"터키", name: 'turkey', tier: "D", image: `${import.meta.env.BASE_URL}img/hunter/60_turkey.png`, tags: ["이벤트"],},
@@ -89,7 +88,7 @@ export const characterDB: Character[] = [
   {id: 65, name_kor:"서큐", name: 'succubus', tier: "S", image: `${import.meta.env.BASE_URL}img/hunter/65_succubus.png`, tags: ["이벤트","1차 각성 체감↑"],},
   {id: 66, name_kor:"아이비", name: 'ivy', tier: "C", image: `${import.meta.env.BASE_URL}img/hunter/66_ivy.png`, tags: [],},
   {id: 67, name_kor:"레프", name: 'leprechaun', tier: "SS", image: `${import.meta.env.BASE_URL}img/hunter/67_leprechaun.png`, tags: ["이벤트","사냥","멀티샷","반사","1차 각성 체감↑","2차 각성 체감↑"],},
-  {id: 68, name_kor:"손오공", name: 'son wukong', tier: "C", image: `${import.meta.env.BASE_URL}img/hunter/68_son_wukong.png`, tags: [],},
+  {id: 68, name_kor:"손오공", name: 'son wukong', tier: "C", image: `${import.meta.env.BASE_URL}img/hunter/68_son_wukong.png`, tags: ["2차 각성 체감↑"],},
   {id: 69, name_kor:"호플", name: 'hoplite', tier: "A", image: `${import.meta.env.BASE_URL}img/hunter/69_hoplite.png`, tags: ["1차 각성 체감↑"],},
   {id: 70, name_kor:"티키", name: 'tikitiki', tier: "C", image: `${import.meta.env.BASE_URL}img/hunter/70_tikitiki.png`, tags: [],},
   {id: 71, name_kor:"멘더", name: 'mender', tier: "S", image: `${import.meta.env.BASE_URL}img/hunter/71_mender.png`, tags: ["서폿", "멀티샷"],},

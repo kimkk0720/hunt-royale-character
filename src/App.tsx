@@ -70,7 +70,7 @@ export default function App() {
       </div>
 
       {/* 2️⃣ 태그 필터 영역 (접기/펴기 기능 추가) */}
-      <div style={{ marginBottom: '20px', padding: '5px 15px 5px 15px', backgroundColor: '#f9f9f9', borderRadius: '8px', border: '1px solid #eee' }}>
+      <div style={{ marginBottom: '20px', padding: '6px 8px 6px 8px', backgroundColor: '#f9f9f9', borderRadius: '8px', border: '1px solid #eee' }}>
 
         {/* 필터 제목 (클릭 시 접고 펴기) */}
         <div
