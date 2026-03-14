@@ -14,7 +14,7 @@ export interface Character {
 
 // 태그 그룹
 export const TAG_GROUPS = [
-  {title: '모드', tags: ['사냥', '협동','보스사냥','현상금사냥꾼',"하드코어 협동",'일일이벤트(생존)','일일이벤트(방어)', '클랜보스'],},
+  {title: '모드', tags: ['사냥', '협동','보스사냥','현상금사냥꾼',"하드코어 협동",'일일이벤트(생존)','일일이벤트(방어)','클랜보스',"성소"],},
   {title: '획득조건', tags: ['게임플레이', '이벤트'],},
   {title: '능력', tags: ['멀티샷','멀티샷(2각)','서폿','반사','1차 각성 체감↑','2차 각성 체감↑'],},
 ];
@@ -37,7 +37,7 @@ export const characterDB: Character[] = [
   {id: 14, name_kor:"로키", name: 'rocky', tier: "D", image: `${import.meta.env.BASE_URL}img/hunter/14_rocky.png`, tags: [],},
   {id: 15, name_kor:"스나", name: 'sniper', tier: "A", image: `${import.meta.env.BASE_URL}img/hunter/15_sniper.png`, tags: ["멀티샷(2각)", "2차 각성 체감↑"],},
   {id: 16, name_kor:"후크", name: 'captain hook', tier: "A", image: `${import.meta.env.BASE_URL}img/hunter/16_captain_hook.png`, tags: ["2차 각성 체감↑"],},
-  {id: 17, name_kor:"라스", name: 'lifestealer', tier: "SS", image: `${import.meta.env.BASE_URL}img/hunter/17_lifestealer.png`, tags: ["멀티샷", "반사"],},
+  {id: 17, name_kor:"라스", name: 'lifestealer', tier: "S", image: `${import.meta.env.BASE_URL}img/hunter/17_lifestealer.png`, tags: ["멀티샷", "반사"],},
   {id: 18, name_kor:"버서커", name: 'berserker', tier: "C", image: `${import.meta.env.BASE_URL}img/hunter/18_berserker.png`, tags: [],},
   {id: 19, name_kor:"오크", name: 'raging orc', tier: "C", image: `${import.meta.env.BASE_URL}img/hunter/19_raging_orc.png`, tags: [],},
   {id: 20, name_kor:"해적,핑해", name: 'pirate', tier: "A", image: `${import.meta.env.BASE_URL}img/hunter/20_pirate.png`, tags: ["멀티샷", "챔피언퀘스트", "2차 각성 체감↑"],},
@@ -77,7 +77,7 @@ export const characterDB: Character[] = [
   {id: 54, name_kor:"허수아비", name: 'scarecrow', tier: "D", image: `${import.meta.env.BASE_URL}img/hunter/54_scarecrow.png`, tags: [],},
   {id: 55, name_kor:"비틀", name: 'beetle', tier: "A", image: `${import.meta.env.BASE_URL}img/hunter/55_beetle.png`, tags: [],},
   {id: 56, name_kor:"아누", name: 'anubis', tier: "S", image: `${import.meta.env.BASE_URL}img/hunter/56_anubis.png`, tags: ["1차 각성 체감↑"],},
-  {id: 57, name_kor:"토멘", name: 'torment', tier: "S", image: `${import.meta.env.BASE_URL}img/hunter/57_torment.png`, tags: ["서폿", "게임플레이","1차 각성 체감↑"],},
+  {id: 57, name_kor:"토멘", name: 'torment', tier: "SS", image: `${import.meta.env.BASE_URL}img/hunter/57_torment.png`, tags: ["서폿","챔피언퀘스트", "게임플레이","1차 각성 체감↑"],},
   {id: 58, name_kor:"거북", name: 'mutant turtle', tier: "SS", image: `${import.meta.env.BASE_URL}img/hunter/58_mutant_turtle.png`, tags: ["반사","성소"],},
   {id: 59, name_kor:"미라", name: 'mummy', tier: "A", image: `${import.meta.env.BASE_URL}img/hunter/59_mummy.png`, tags: ["성소"],},
   {id: 60, name_kor:"터키", name: 'turkey', tier: "D", image: `${import.meta.env.BASE_URL}img/hunter/60_turkey.png`, tags: ["이벤트"],},
