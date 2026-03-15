@@ -100,7 +100,7 @@ export const characterDB: Character[] = [
   {id: 87, name_kor:"골렘", name: 'a girl and her golem', tier: "SSS", image: `${import.meta.env.BASE_URL}img/hunter/87_a_girl_and_her_golem.png`, tags: ["현상금사냥꾼",'클랜보스'],},
   {id: 88, name_kor:"커맨", name: 'commander vanellus', tier: "A", image: `${import.meta.env.BASE_URL}img/hunter/88_commander_vanellus.png`, tags: [],},
   {id: 89, name_kor:"슈히", name: 'superhero', tier: "SS", image: `${import.meta.env.BASE_URL}img/hunter/89_superhero.png`, tags: ["협동"],},
-  {id: 90, name_kor:"미믹", name: 'mimic', tier: "S", image: `${import.meta.env.BASE_URL}img/hunter/90_mimic.png`, tags: ["게임플레이","멀티샷"],},
+  {id: 90, name_kor:"미믹", name: 'mimic', tier: "S", image: `${import.meta.env.BASE_URL}img/hunter/90_mimic.png`, tags: ["게임플레이","멀티샷","반사"],},
   {id: 91, name_kor:"빌런", name: 'supervilain', tier: "SS", image: `${import.meta.env.BASE_URL}img/hunter/91_supervilain.png`, tags: ["일일이벤트(생존)","1차 각성 체감↑"],},
   {id: 92, name_kor:"지네", name: 'centipede', tier: "SSS", image: `${import.meta.env.BASE_URL}img/hunter/92_centipede.png`, tags: ["협동","보스사냥","일일이벤트(방어)","1차 각성 체감↑"],},
   {id: 93, name_kor:"나블", name: 'nightblade', tier: "S", image: `${import.meta.env.BASE_URL}img/hunter/93_nightblade.png`, tags: [],},

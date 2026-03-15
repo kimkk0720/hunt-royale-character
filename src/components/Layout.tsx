@@ -68,7 +68,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             zIndex: 1000 // 다른 화면 요소들보다 위에 표시되도록 설정
           }}>
             <Link to="/" onClick={closeMenu} style={{ color: '#fff', textDecoration: 'none', fontWeight: 'bold' }}>티어표</Link>
-            <Link to="/item" onClick={closeMenu} style={{ color: '#fff', textDecoration: 'none', fontWeight: 'bold' }}>템세팅</Link>
+            <Link to="/item" onClick={closeMenu} style={{ color: '#fff', textDecoration: 'none', fontWeight: 'bold' }}>장비세팅</Link>
             <Link to="/support" onClick={closeMenu} style={{ color: '#fff', textDecoration: 'none', fontWeight: 'bold' }}>복구문의</Link>
           </nav>
         )}
