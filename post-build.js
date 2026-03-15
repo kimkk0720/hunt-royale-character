@@ -10,8 +10,8 @@ const DIST_DIR = path.join(__dirname, 'dist');
 // 경로별 메타데이터 설정
 const ROUTE_META = {
   'item': {
-    title: "헌트로얄 아이템 가이드",
-    description: "3.24.0 버전 기준 장비 세팅 가이드 (공사 중)"
+    title: "헌트로얄 장비세팅 가이드",
+    description: "3.24.0 버전 기준 장비세팅 가이드 (공사 중)"
   },
   'support': {
     title: '계정 복구 양식',
