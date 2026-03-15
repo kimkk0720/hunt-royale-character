@@ -1,19 +1,8 @@
 // src/data.ts
-
-// 1. 타입 내보내기 (export)
-export type Tier = 'SSS' | 'SS' | 'S' | 'A' | 'B' | 'C' | 'D';
-
-export interface Character {
-  id: number;
-  name_kor: string;
-  name: string;
-  tier: Tier;
-  image: string;
-  tags: string[];
-}
+import type {Character, TagGroup} from './types/character';
 
 // 태그 그룹
-export const TAG_GROUPS = [
+export const TAG_GROUPS: TagGroup[] = [
   {title: '모드', tags: ['사냥', '협동','보스사냥','현상금사냥꾼',"하드코어 협동",'일일이벤트(생존)','일일이벤트(방어)','클랜보스'],},
   {title: '던전특화', tags: ["성소"],},
   {title: '획득조건', tags: ['게임플레이', '이벤트'],},
