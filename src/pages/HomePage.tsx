@@ -29,7 +29,7 @@ export default function HomePage() {
     <>
       <SEO
         title="헌트로얄 캐릭터 티어리스트"
-        description="3.24.0 버전 기준 헌트로얄 캐릭터 티어 리스트"
+        description="3.24.0 버전 기준 헌트로얄 캐릭터 티어리스트"
       />
 
       <div style={{fontFamily: 'sans-serif', padding: '20px', maxWidth: '800px', margin: '0 auto'}}>
