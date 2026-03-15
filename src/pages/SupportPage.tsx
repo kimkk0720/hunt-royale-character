@@ -1,5 +1,6 @@
 // src/pages/SupportPage.tsx
-import { useState } from 'react';
+import {useState} from 'react';
+import SEO from '../components/SEO'; // ★ 만든 SEO 컴포넌트 불러오기
 import SupportFooter from "../components/footer/SupportFooter.tsx";
 
 export default function SupportPage() {
@@ -14,7 +15,7 @@ Dear Boombit Support,
 I hope this email finds you well. I am reaching out to seek urgent assistance regarding an issue I encountered in your game. 
 
 Below are my in-game details:
-Game Version: 3.24.0
+Game Version: 3.24.0 (현재 게임 버전)
 Old Player ID:
 New Player ID: 
 
@@ -63,57 +64,64 @@ A screenshot of the recent payment made in Hunt Royale.
   };
 
   return (
-    <div style={{ padding: '20px', maxWidth: '800px', margin: '0 auto' }}>
+    <>
+      <SEO
+        title="계정 복구 양식"
+        description="게임 계정 연동 오류 및 복구를 위한 영문 문의 양식입니다."
+      />
 
-      {/* 헤더 및 복사 버튼 영역 */}
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
-        <h2 style={{ margin: 0 }}>계정 복구 문의 양식</h2>
-        <button
-          onClick={handleCopy}
-          style={{
-            padding: '8px 16px',
-            backgroundColor: copied ? '#28a745' : '#007bff',
-            color: '#fff',
-            border: 'none',
-            borderRadius: '5px',
-            cursor: 'pointer',
-            fontWeight: 'bold',
-            transition: 'background-color 0.3s'
-          }}
-        >
-          {copied ? '복사 완료!' : '양식 복사하기'}
-        </button>
+      <div style={{padding: '20px', maxWidth: '800px', margin: '0 auto'}}>
+
+        {/* 헤더 및 복사 버튼 영역 */}
+        <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px'}}>
+          <h2 style={{margin: 0}}>계정 복구 문의 양식</h2>
+          <button
+            onClick={handleCopy}
+            style={{
+              padding: '8px 16px',
+              backgroundColor: copied ? '#28a745' : '#007bff',
+              color: '#fff',
+              border: 'none',
+              borderRadius: '5px',
+              cursor: 'pointer',
+              fontWeight: 'bold',
+              transition: 'background-color 0.3s'
+            }}
+          >
+            {copied ? '복사 완료!' : '양식 복사하기'}
+          </button>
+        </div>
+
+        {/* 문의처 주소 영역 (클릭할 수 있도록 별도 분리) */}
+        <div style={{margin: '20px 0px 20px', padding: '15px', backgroundColor: '#e9ecef', borderRadius: '8px'}}>
+          <p style={{margin: '0 0 10px 0', fontWeight: 'bold'}}>문의처 주소</p>
+          <a
+            href="https://boombit.zendesk.com/hc/ko/requests/new"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{color: '#0056b3', textDecoration: 'underline', wordBreak: 'break-all'}}
+          >
+            https://boombit.zendesk.com/hc/ko/requests/new
+          </a>
+        </div>
+
+        {/* 텍스트가 출력되는 본문 영역 */}
+        <div style={{
+          backgroundColor: '#f8f9fa',
+          padding: '25px',
+          borderRadius: '8px',
+          border: '1px solid #dee2e6',
+          whiteSpace: 'pre-wrap', // ★ 이 속성이 줄바꿈을 그대로 유지해줍니다.
+          wordBreak: 'break-word',
+          lineHeight: '1.6',
+          color: '#333',
+          fontSize: '15px'
+        }}>
+          {templateText}
+        </div>
+
+        <SupportFooter/>
       </div>
-
-      {/* 문의처 주소 영역 (클릭할 수 있도록 별도 분리) */}
-      <div style={{ margin: '20px 0px 20px', padding: '15px', backgroundColor: '#e9ecef', borderRadius: '8px' }}>
-        <p style={{ margin: '0 0 10px 0', fontWeight: 'bold' }}>문의처 주소</p>
-        <a
-          href="https://boombit.zendesk.com/hc/ko/requests/new"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ color: '#0056b3', textDecoration: 'underline', wordBreak: 'break-all' }}
-        >
-          https://boombit.zendesk.com/hc/ko/requests/new
-        </a>
-      </div>
-
-      {/* 텍스트가 출력되는 본문 영역 */}
-      <div style={{
-        backgroundColor: '#f8f9fa',
-        padding: '25px',
-        borderRadius: '8px',
-        border: '1px solid #dee2e6',
-        whiteSpace: 'pre-wrap', // ★ 이 속성이 줄바꿈을 그대로 유지해줍니다.
-        wordBreak: 'break-word',
-        lineHeight: '1.6',
-        color: '#333',
-        fontSize: '15px'
-      }}>
-        {templateText}
-      </div>
-
-      <SupportFooter/>
-    </div>
+    </>
   );
 }
