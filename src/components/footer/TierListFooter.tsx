@@ -1,4 +1,4 @@
-// src/Footer.tsx
+// src/components/footer/TierListFooter.tsx
 export default function TierListFooter() {
   return (
     <footer style={{
