@@ -85,11 +85,6 @@ function postBuild() {
     const outputPath = path.join(routeDir, 'index.html');
     fs.writeFileSync(outputPath, customizedContent);
     console.log(`Generated: ${outputPath} with custom OG tags`);
-
-    // Also create route.html at root if preferred
-    const rootOutputPath = path.join(DIST_DIR, `${route}.html`);
-    fs.writeFileSync(rootOutputPath, customizedContent);
-    console.log(`Generated: ${rootOutputPath} with custom OG tags`);
   });
 
   // Create 404.html for GitHub Pages to handle SPA routing
