@@ -5,7 +5,7 @@ import type {Character, TagGroup} from './types/character';
 export const TAG_GROUPS: TagGroup[] = [
   {title: '모드', tags: ['사냥', '협동','보스사냥','현상금사냥꾼',"하드코어 협동",'일일이벤트(생존)','일일이벤트(방어)','클랜보스'],},
   {title: '던전특화', tags: ["성소"],},
-  {title: '획득조건', tags: ['게임플레이', '이벤트'],},
+  {title: '획득조건', tags: ['게임플레이', '이벤트', '챌린지상점', '심연의 미로 150판', '심연의 어두운 숲 500판'],},
   {title: '능력', tags: ['멀티샷','멀티샷(2각)','서폿','반사','1차 각성 체감↑','2차 각성 체감↑'],},
 ];
 
@@ -67,7 +67,7 @@ export const characterDB: Character[] = [
   {id: 54, name_kor:"허수아비", name: 'scarecrow', tier: "D", image: `${import.meta.env.BASE_URL}img/hunter/54_scarecrow.png`, tags: [],},
   {id: 55, name_kor:"비틀", name: 'beetle', tier: "A", image: `${import.meta.env.BASE_URL}img/hunter/55_beetle.png`, tags: [],},
   {id: 56, name_kor:"아누", name: 'anubis', tier: "S", image: `${import.meta.env.BASE_URL}img/hunter/56_anubis.png`, tags: ["1차 각성 체감↑"],},
-  {id: 57, name_kor:"토멘", name: 'torment', tier: "SS", image: `${import.meta.env.BASE_URL}img/hunter/57_torment.png`, tags: ["서폿","챔피언퀘스트", "게임플레이","1차 각성 체감↑"],},
+  {id: 57, name_kor:"토멘", name: 'torment', tier: "SS", image: `${import.meta.env.BASE_URL}img/hunter/57_torment.png`, tags: ["서폿","챔피언퀘스트", "심연의 미로 150판","1차 각성 체감↑"],},
   {id: 58, name_kor:"거북", name: 'mutant turtle', tier: "SS", image: `${import.meta.env.BASE_URL}img/hunter/58_mutant_turtle.png`, tags: ["반사","성소"],},
   {id: 59, name_kor:"미라", name: 'mummy', tier: "A", image: `${import.meta.env.BASE_URL}img/hunter/59_mummy.png`, tags: ["성소"],},
   {id: 60, name_kor:"터키", name: 'turkey', tier: "D", image: `${import.meta.env.BASE_URL}img/hunter/60_turkey.png`, tags: ["이벤트"],},
@@ -100,7 +100,7 @@ export const characterDB: Character[] = [
   {id: 87, name_kor:"골렘", name: 'a girl and her golem', tier: "SSS", image: `${import.meta.env.BASE_URL}img/hunter/87_a_girl_and_her_golem.png`, tags: ["현상금사냥꾼",'클랜보스'],},
   {id: 88, name_kor:"커맨", name: 'commander vanellus', tier: "A", image: `${import.meta.env.BASE_URL}img/hunter/88_commander_vanellus.png`, tags: [],},
   {id: 89, name_kor:"슈히", name: 'superhero', tier: "SS", image: `${import.meta.env.BASE_URL}img/hunter/89_superhero.png`, tags: ["협동"],},
-  {id: 90, name_kor:"미믹", name: 'mimic', tier: "S", image: `${import.meta.env.BASE_URL}img/hunter/90_mimic.png`, tags: ["게임플레이","멀티샷","반사"],},
+  {id: 90, name_kor:"미믹", name: 'mimic', tier: "S", image: `${import.meta.env.BASE_URL}img/hunter/90_mimic.png`, tags: ["심연의 어두운 숲 500판","멀티샷","반사"],},
   {id: 91, name_kor:"빌런", name: 'supervilain', tier: "SS", image: `${import.meta.env.BASE_URL}img/hunter/91_supervilain.png`, tags: ["일일이벤트(생존)","1차 각성 체감↑"],},
   {id: 92, name_kor:"지네", name: 'centipede', tier: "SSS", image: `${import.meta.env.BASE_URL}img/hunter/92_centipede.png`, tags: ["협동","보스사냥","일일이벤트(방어)","1차 각성 체감↑"],},
   {id: 93, name_kor:"나블", name: 'nightblade', tier: "S", image: `${import.meta.env.BASE_URL}img/hunter/93_nightblade.png`, tags: [],},
