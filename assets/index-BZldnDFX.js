@@ -18,7 +18,7 @@ Dear Boombit Support,
 I hope this email finds you well. I am reaching out to seek urgent assistance regarding an issue I encountered in your game. 
 
 Below are my in-game details:
-Game Version: 3.24.0 (현재 게임 버전)
+Game Version: 3.25.0 (현재 게임 버전)
 Old Player ID:
 New Player ID: 
 
