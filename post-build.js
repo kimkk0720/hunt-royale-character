@@ -11,7 +11,7 @@ const DIST_DIR = path.join(__dirname, 'dist');
 const ROUTE_META = {
   'item': {
     title: "헌트로얄 장비세팅 가이드",
-    description: "3.24.0 버전 기준 장비세팅 가이드 (공사 중)"
+    description: "3.25.0 버전 기준 장비세팅 가이드 (공사 중)"
   },
   'support': {
     title: '계정 복구 양식',

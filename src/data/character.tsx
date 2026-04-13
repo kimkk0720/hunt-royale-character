@@ -1,5 +1,5 @@
 // src/data.ts
-import type {Character, TagGroup} from './types/character';
+import type {Character, TagGroup} from '../types/character.ts';
 
 // 태그 그룹
 export const TAG_GROUPS: TagGroup[] = [
@@ -32,11 +32,11 @@ export const characterDB: Character[] = [
   {id: 19, name_kor:"오크", name: 'raging orc', tier: "C", image: `${import.meta.env.BASE_URL}img/hunter/19_raging_orc.png`, tags: [],},
   {id: 20, name_kor:"해적,핑해", name: 'pirate', tier: "A", image: `${import.meta.env.BASE_URL}img/hunter/20_pirate.png`, tags: ["멀티샷", "챔피언퀘스트", "2차 각성 체감↑"],},
   {id: 21, name_kor:"붐붐", name: 'boom boom', tier: "B", image: `${import.meta.env.BASE_URL}img/hunter/21_boom_boom.png`, tags: ["2차 각성 체감↑"],},
-  {id: 22, name_kor:"울프", name: 'grey wolf', tier: "C", image: `${import.meta.env.BASE_URL}img/hunter/22_grey_wolf.png`, tags: ["게임플레이"],},
+  {id: 22, name_kor:"울프", name: 'grey wolf', tier: "B", image: `${import.meta.env.BASE_URL}img/hunter/22_grey_wolf.png`, tags: ["게임플레이"],},
   {id: 23, name_kor:"롤러", name: 'roller', tier: "D", image: `${import.meta.env.BASE_URL}img/hunter/23_roller.png`, tags: ["게임플레이"],},
   {id: 24, name_kor:"킹", name: 'king', tier: "C", image: `${import.meta.env.BASE_URL}img/hunter/24_king.png`, tags: ["반사","게임플레이"],},
   {id: 25, name_kor:"닌자", name: 'ninja', tier: "S", image: `${import.meta.env.BASE_URL}img/hunter/25_ninja.png`, tags: ["멀티샷(2각)", "1차 각성 체감↑", "2차 각성 체감↑"],},
-  {id: 26, name_kor:"엔지", name: 'engineer', tier: "C", image: `${import.meta.env.BASE_URL}img/hunter/26_engineer.png`, tags: ["반사"],},
+  {id: 26, name_kor:"엔지", name: 'engineer', tier: "B", image: `${import.meta.env.BASE_URL}img/hunter/26_engineer.png`, tags: ["반사"],},
   {id: 27, name_kor:"해머", name: 'hammerdin', tier: "C", image: `${import.meta.env.BASE_URL}img/hunter/27_hammerdin.png`, tags: [],},
   {id: 28, name_kor:"렌더멘", name: 'renderman', tier: "D", image: `${import.meta.env.BASE_URL}img/hunter/28_renderman.png`, tags: [],},
   {id: 29, name_kor:"팬텀", name: 'phantom', tier: "C", image: `${import.meta.env.BASE_URL}img/hunter/29_phantom.png`, tags: ["1차 각성 체감↑"],},
@@ -45,7 +45,7 @@ export const characterDB: Character[] = [
   {id: 32, name_kor:"매닥", name: 'mad doctor', tier: "D", image: `${import.meta.env.BASE_URL}img/hunter/32_mad_doctor.png`, tags: [],},
   {id: 33, name_kor:"문어", name: 'ancient one', tier: "S", image: `${import.meta.env.BASE_URL}img/hunter/33_ancient_one.png`, tags: ["멀티샷"],},
   {id: 34, name_kor:"미노", name: 'minotaur', tier: "D", image: `${import.meta.env.BASE_URL}img/hunter/34_minotaur.png`, tags: [],},
-  {id: 35, name_kor:"제우스", name: 'zeus', tier: "C", image: `${import.meta.env.BASE_URL}img/hunter/35_zeus.png`, tags: [],},
+  {id: 35, name_kor:"제우스", name: 'zeus', tier: "B", image: `${import.meta.env.BASE_URL}img/hunter/35_zeus.png`, tags: [],},
   {id: 36, name_kor:"이프", name: 'efreet', tier: "S", image: `${import.meta.env.BASE_URL}img/hunter/36_efreet.png`, tags: ["반사","1차 각성 체감↑", "2차 각성 체감↑"],},
   {id: 37, name_kor:"히드라", name: 'huntalisk', tier: "B", image: `${import.meta.env.BASE_URL}img/hunter/37_huntalisk.png`, tags: ["1차 각성 체감↑"],},
   {id: 38, name_kor:"프텍", name: 'protector', tier: "C", image: `${import.meta.env.BASE_URL}img/hunter/38_protector.png`, tags: [],},
@@ -90,7 +90,7 @@ export const characterDB: Character[] = [
   {id: 77, name_kor:"식충", name: 'carnivorous', tier: "A", image: `${import.meta.env.BASE_URL}img/hunter/77_carnivorous.png`, tags: ["멀티샷"],},
   {id: 78, name_kor:"킬러걸", name: 'killergirl', tier: "C", image: `${import.meta.env.BASE_URL}img/hunter/78_killergirl.png`, tags: [],},
   {id: 79, name_kor:"스톰", name: 'storm strider', tier: "C", image: `${import.meta.env.BASE_URL}img/hunter/79_storm_strider.png`, tags: ["1차 각성 체감↑"],},
-  {id: 80, name_kor:"타임", name: 'time travler', tier: "C", image: `${import.meta.env.BASE_URL}img/hunter/80_time_travler.png`, tags: [],},
+  {id: 80, name_kor:"타임", name: 'time travler', tier: "B", image: `${import.meta.env.BASE_URL}img/hunter/80_time_travler.png`, tags: [],},
   {id: 81, name_kor:"바칼롯", name: 'sir barkalot', tier: "C", image: `${import.meta.env.BASE_URL}img/hunter/81_sir_barkalot.png`, tags: ["반사"],},
   {id: 82, name_kor:"고질", name: 'apex predator', tier: "A", image: `${import.meta.env.BASE_URL}img/hunter/82_apex_predator.png`, tags: ["2차 각성 체감↑"],},
   {id: 83, name_kor:"이터널", name: 'eternal', tier: "S", image: `${import.meta.env.BASE_URL}img/hunter/83_eternal.png`, tags: ["이벤트","1차 각성 체감↑"],},
@@ -105,4 +105,5 @@ export const characterDB: Character[] = [
   {id: 92, name_kor:"지네", name: 'centipede', tier: "SSS", image: `${import.meta.env.BASE_URL}img/hunter/92_centipede.png`, tags: ["협동","보스사냥","일일이벤트(방어)","1차 각성 체감↑"],},
   {id: 93, name_kor:"나블", name: 'nightblade', tier: "S", image: `${import.meta.env.BASE_URL}img/hunter/93_nightblade.png`, tags: [],},
   {id: 94, name_kor:"판다", name: 'panda', tier: "A", image: `${import.meta.env.BASE_URL}img/hunter/94_panda.png`, tags: ["반사"],},
+  {id: 95, name_kor:"퀸비", name: 'queen bee', tier: "A", image: `${import.meta.env.BASE_URL}img/hunter/95_queen_bee.png`, tags: [],},
 ];

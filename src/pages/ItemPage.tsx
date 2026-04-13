@@ -7,7 +7,7 @@ export default function ItemPage() {
     <>
       <SEO
         title="헌트로얄 장비세팅 가이드"
-        description="3.24.0 버전 기준 장비세팅 가이드 (공사 중)"
+        description="3.25.0 버전 기준 장비세팅 가이드 (공사 중)"
       />
       <div style={{ fontFamily: 'sans-serif', padding: '20px', maxWidth: '800px', margin: '0 auto' }}>
         <h1>공사중</h1>

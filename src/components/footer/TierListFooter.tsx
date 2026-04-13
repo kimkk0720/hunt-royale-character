@@ -15,7 +15,7 @@ export default function TierListFooter() {
         This is an unofficial fan-made project.
         Game assets and data belong to their respective owners.
       </p>
-      <p>ver. 3.24.0</p>
+      <p>ver. 3.25.0</p>
       <p><a href={"https://open.kakao.com/o/gtJzDIXd"}>밸런스 및 문의하러 가기</a></p>
     </footer>
   );
