@@ -29,7 +29,7 @@ export default function HomePage() {
     <>
       <SEO
         title="헌트로얄 캐릭터 티어리스트"
-        description="3.32.0 버전 기준 헌트로얄 캐릭터 티어리스트"
+        description="3.34.0 버전 기준 헌트로얄 캐릭터 티어리스트"
       />
 
       <div style={{fontFamily: 'sans-serif', padding: '20px', maxWidth: '800px', margin: '0 auto'}}>
@@ -88,8 +88,8 @@ export default function HomePage() {
               필터 (태그 선택)
             </h3>
             <span style={{fontSize: '18px', color: '#888'}}>
-            {isFilterOpen ? '▼' : '▲'}
-          </span>
+              {isFilterOpen ? '▼' : '▲'}
+            </span>
           </div>
 
           {isFilterOpen && (
