@@ -17,7 +17,7 @@ export const characterDB: Character[] = [
   {id: 4, name_kor:"고르곤", name: 'gorgon', tier: "SSS", image: `${import.meta.env.BASE_URL}img/hunter/4_gorgon.png`, tags: ["멀티샷", "2차 각성 체감↑"],},
   {id: 5, name_kor:"엔젤", name: 'angel', tier: "C", image: `${import.meta.env.BASE_URL}img/hunter/5_angel.png`, tags: ["서폿", "2차 각성 체감↑"],},
   {id: 6, name_kor:"부두", name: 'voodoo', tier: "A", image: `${import.meta.env.BASE_URL}img/hunter/6_voodoo.png`, tags: ["1차 각성 체감↑", "우버 아레나"],},
-  {id: 7, name_kor:"스퀸", name: 'spider queen', tier: "S", image: `${import.meta.env.BASE_URL}img/hunter/7_spider_queen.png`, tags: ["멀티샷","2차 각성 체감↑","우버 아레나2"],},
+  {id: 7, name_kor:"스퀸", name: 'spider queen', tier: "S", image: `${import.meta.env.BASE_URL}img/hunter/7_spider_queen.png`, tags: ["하드코어 보스","멀티샷","2차 각성 체감↑","우버 아레나2"],},
   {id: 8, name_kor:"드나", name: 'dragon knight', tier: "D", image: `${import.meta.env.BASE_URL}img/hunter/8_dragon_knight.png`, tags: ["반사"],},
   {id: 9, name_kor:"드루", name: 'druid', tier: "D", image: `${import.meta.env.BASE_URL}img/hunter/9_druid.png`, tags: ["반사"],},
   {id: 10, name_kor:"크로우", name: 'crow', tier: "B", image: `${import.meta.env.BASE_URL}img/hunter/10_crow.png`, tags: ["부서진 성소", "1차 각성 체감↑"],},
