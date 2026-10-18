@@ -106,5 +106,5 @@ export const characterDB: Character[] = [
   {id: 93, name_kor:"나블", name: 'nightblade', tier: "S", image: `${import.meta.env.BASE_URL}img/hunter/93_nightblade.png`, tags: [],},
   {id: 94, name_kor:"판다", name: 'panda', tier: "S", image: `${import.meta.env.BASE_URL}img/hunter/94_panda.png`, tags: ["반사", "1차 각성 체감↑"],},
   {id: 95, name_kor:"퀸비", name: 'queen bee', tier: "A", image: `${import.meta.env.BASE_URL}img/hunter/95_queen_bee.png`, tags: [],},
-  {id: 96, name_kor:"마스터", name: 'master', tier: "B", image: `${import.meta.env.BASE_URL}img/hunter/95_queen_bee.png`, tags: [],},  /*이미지 추가 필요*/
+  {id: 96, name_kor:"마스터", name: 'master', tier: "B", image: `${import.meta.env.BASE_URL}img/hunter/96_master.png`, tags: [],},
 ];
