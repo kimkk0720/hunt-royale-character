@@ -97,7 +97,7 @@ export const characterDB: Character[] = [
   {id: 84, name_kor:"마녀", name: 'shadow witch', tier: "B", image: `${import.meta.env.BASE_URL}img/hunter/84_shadow_witch.png`, tags: ["서폿"],},
   {id: 85, name_kor:"불냥", name: 'firefluff', tier: "C", image: `${import.meta.env.BASE_URL}img/hunter/85_firefluff.png`, tags: ["2차 각성 체감↑"],},
   {id: 86, name_kor:"개멬,메카어쌔", name: 'mech assassin', tier: "S", image: `${import.meta.env.BASE_URL}img/hunter/86_mech_assassin.png`, tags: ["보스사냥"],},
-  {id: 87, name_kor:"골렘", name: 'a girl and her golem', tier: "SSS", image: `${import.meta.env.BASE_URL}img/hunter/87_a_girl_and_her_golem.png`, tags: ["현상금사냥꾼","클랜보스","일일이벤트(방어)"],},
+  {id: 87, name_kor:"골렘", name: 'a girl and her golem', tier: "SSS", image: `${import.meta.env.BASE_URL}img/hunter/87_a_girl_and_her_golem.png`, tags: ["2차 각성 체감↑","현상금사냥꾼","클랜보스","일일이벤트(방어)"],},
   {id: 88, name_kor:"커맨", name: 'commander vanellus', tier: "A", image: `${import.meta.env.BASE_URL}img/hunter/88_commander_vanellus.png`, tags: [],},
   {id: 89, name_kor:"슈히", name: 'superhero', tier: "SS", image: `${import.meta.env.BASE_URL}img/hunter/89_superhero.png`, tags: ["협동"],},
   {id: 90, name_kor:"미믹", name: 'mimic', tier: "S", image: `${import.meta.env.BASE_URL}img/hunter/90_mimic.png`, tags: ["심연의 어두운 숲 500판","멀티샷","반사"],},
